@@ -2,6 +2,7 @@
 
 require('../vendor/autoload.php');
 
+echo '<br/>'.__DIR__.'<br/>';
 
 $basePub='/demo/bootstrap4';
 $repository['bootstrap4']=$basePub.'/pub/dist/bootstrap4';

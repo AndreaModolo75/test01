@@ -1,0 +1,15 @@
+{
+    "require": {
+        "twbs/bootstrap": "^4.6",
+        "components/jquery": "^3.5",
+        "scrivo/highlight.php": "v9.18.1.7"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "cp vendor/twbs/bootstrap/dist/css/* pub/dist/bootstrap4/css",
+            "cp vendor/twbs/bootstrap/dist/js/* pub/dist/bootstrap4/js",
+            "cp vendor/components/jquery/* pub/dist/jquery/js",
+            "cp vendor/scrivo/highlight.php/styles/* pub/dist/highlight/css"
+        ]
+    }
+}

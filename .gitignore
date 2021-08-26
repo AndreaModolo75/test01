@@ -1,0 +1,5 @@
+pub/dist/bootstrap4/**/*
+pub/dist/jquery/**/*
+pub/dist/highlight/**/*
+vendor/**/*
+
